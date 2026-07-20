@@ -20,10 +20,11 @@ Para cada risco priorizado na Etapa 2, foi definida uma estratégia principal (e
 
 **Estratégia: Mitigar (com componente de Evitar para mudanças não essenciais)**
 
-- **Justificativa:** as solicitações vêm de stakeholders legítimos e não devem ser bloqueadas em absoluto, mas precisam deixar de entrar "por fora" do planejamento.
+- **Justificativa:** as solicitações vêm de stakeholders legítimos e não devem ser bloqueadas em absoluto, mas precisam deixar de entrar "por fora" do planejamento. Na cadeia causal mapeada nas Etapas 1 e 2, este é o **ponto de intervenção de maior alavancagem**: cada mudança absorvida sem avaliação amplifica simultaneamente a sobrecarga (R03), o gargalo de testes (R04) e o risco de atraso (R05). É também a resposta de menor custo e aplicação mais imediata do plano.
 - **Ações:**
   - instituir um **processo leve de controle de mudanças**: toda solicitação passa por avaliação de impacto (prazo, esforço, risco) antes de ser aprovada;
   - negociar um **congelamento parcial de escopo** até a estabilização da integração crítica, adiando mudanças não essenciais para uma fase posterior (evitar);
+  - para mudanças essenciais, **devolver a decisão aos stakeholders de forma explícita**: reduzir escopo, ampliar prazo ou aumentar capacidade, com o custo de cada opção quantificado — em vez de a equipe absorver silenciosamente as três pressões;
   - manter um backlog priorizado e visível para os stakeholders, explicitando o custo de cada troca.
 
 ## R03 — Sobrecarga e possível esgotamento da equipe
@@ -75,7 +76,7 @@ Para cada risco priorizado na Etapa 2, foi definida uma estratégia principal (e
 | Risco | Estratégia principal | Ação-chave |
 |---|---|---|
 | R01 | Mitigar + Transferir | Adapter + modo degradado; SLA via sponsors |
-| R02 | Mitigar / Evitar | Controle de mudanças; congelamento parcial |
+| R02 | Mitigar / Evitar | Controle de mudanças; decisão escopo × prazo × capacidade devolvida aos stakeholders |
 | R03 | Mitigar | Repriorização com dados; proteção do time |
 | R04 | Mitigar | Shift-left e automação de regressão |
 | R05 | Mitigar + Aceitar | Replanejamento transparente |
