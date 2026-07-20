@@ -30,4 +30,4 @@ Aplicar Inteligência Artificial Generativa (LLMs) como ferramenta de **apoio** 
 
 ## Nota sobre o uso de IA
 
-Os artefatos foram produzidos com apoio de um LLM (Claude), a partir dos prompts estruturados sugeridos no material do curso, e **revisados e ajustados manualmente**: classificações de probabilidade e impacto, priorização e escolha das estratégias refletem decisão humana, não saída direta do modelo. Nenhum dado real ou sensível foi utilizado.
+Os artefatos foram produzidos em **fluxo agêntico** com um LLM (Claude, via Claude Code), a partir do material do curso e dos prompts estruturados registrados em [`prompts/`](prompts/prompts-utilizados.md). A revisão humana concentrou-se na camada de decisão: validação dos riscos frente ao cenário, comparação com outras análises do mesmo caso e escolha da estratégia priorizada — inclusive com redirecionamento da estratégia destacada após a revisão (ver histórico de commits). Nenhum dado real ou sensível foi utilizado.
