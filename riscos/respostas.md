@@ -1,5 +1,3 @@
-# Etapa 3 — Estratégias de Resposta aos Riscos
-
 Para cada risco priorizado na Etapa 2, foi definida uma estratégia principal (evitar, mitigar, transferir ou aceitar), com justificativa e ações associadas. As alternativas foram exploradas com apoio do LLM; a escolha final é decisão do gerente de projetos, considerando o contexto e as restrições da equipe.
 
 ---

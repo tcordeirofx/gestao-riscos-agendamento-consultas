@@ -1,5 +1,3 @@
-# Etapa 2 — Análise Qualitativa dos Riscos
-
 Análise estruturada dos riscos identificados na Etapa 1, considerando impactos potenciais e fatores condicionantes. As classificações de probabilidade e impacto são **qualitativas** (Baixa/Média/Alta × Baixo/Médio/Alto) e foram definidas pelo gerente de projetos com apoio do LLM — não são saída direta do modelo.
 
 ---

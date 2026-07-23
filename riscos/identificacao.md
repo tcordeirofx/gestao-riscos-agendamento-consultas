@@ -1,5 +1,3 @@
-# Etapa 1 — Identificação de Riscos
-
 Riscos identificados a partir do cenário do projeto (app de agendamento de consultas médicas), com apoio de LLM e revisão do gerente de projetos. A análise se limita às informações fornecidas no cenário; itens inferidos estão sinalizados como **suposição a validar**.
 
 ---

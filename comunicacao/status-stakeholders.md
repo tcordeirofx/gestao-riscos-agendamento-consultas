@@ -1,5 +1,3 @@
-# Etapa 4 — Comunicação para Stakeholders
-
 Relatório de status elaborado com apoio de LLM para traduzir a situação técnica do projeto em linguagem de negócio, com foco em tomada de decisão. Público-alvo: sponsors e stakeholders não técnicos.
 
 ---

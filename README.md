@@ -20,14 +20,17 @@ Aplicar Inteligência Artificial Generativa (LLMs) como ferramenta de **apoio** 
 
 ## Organização do repositório
 
-| Pasta | Conteúdo |
-|---|---|
-| [`etapa-1-identificacao-riscos/`](etapa-1-identificacao-riscos/identificacao-riscos.md) | Lista de riscos identificados, com descrição e contexto de ocorrência |
-| [`etapa-2-analise-riscos/`](etapa-2-analise-riscos/analise-riscos.md) | Análise qualitativa (impactos, fatores condicionantes) e matriz probabilidade × impacto |
-| [`etapa-3-estrategias-resposta/`](etapa-3-estrategias-resposta/estrategias-resposta.md) | Estratégia de resposta para cada risco (evitar, mitigar, transferir, aceitar), com justificativa e ações |
-| [`etapa-4-comunicacao-stakeholders/`](etapa-4-comunicacao-stakeholders/comunicacao-stakeholders.md) | Relatório de status para stakeholders, em linguagem de negócio |
-| [`prompts/`](prompts/prompts-utilizados.md) | Prompts estruturados utilizados com o LLM em cada etapa |
+```
+gestao-riscos-agendamento-consultas/
+├── README.md
+├── riscos/
+│   ├── identificacao.md      # Etapa 1 — riscos identificados
+│   ├── analise.md            # Etapa 2 — análise qualitativa e matriz probabilidade x impacto
+│   └── respostas.md          # Etapa 3 — estratégias de resposta
+└── comunicacao/
+    └── status-stakeholders.md  # Etapa 4 — comunicação de status para stakeholders
+```
 
 ## Nota sobre o uso de IA
 
-Os artefatos foram produzidos em **fluxo agêntico** com um LLM (Claude, via Claude Code), a partir do material do curso e dos prompts estruturados registrados em [`prompts/`](prompts/prompts-utilizados.md). A revisão humana concentrou-se na camada de decisão: validação dos riscos frente ao cenário, comparação com outras análises do mesmo caso e escolha da estratégia priorizada — inclusive com redirecionamento da estratégia destacada após a revisão (ver histórico de commits). Nenhum dado real ou sensível foi utilizado.
+Os artefatos foram produzidos com apoio de um LLM.
